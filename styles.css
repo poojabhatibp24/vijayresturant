@@ -1,0 +1,117 @@
+/* Custom styles for Vijay Restaurant Jodhpur */
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+/* Subtle Royal Pattern Backdrop */
+.royal-pattern {
+  background-color: #0c233c;
+  background-image: radial-gradient(rgba(232, 190, 81, 0.15) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Pulse Slow Animation for Hero Image */
+@keyframes pulseSlow {
+  0%, 100% {
+    transform: scale(1.02);
+  }
+  50% {
+    transform: scale(1.06);
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulseSlow 20s ease-in-out infinite alternate;
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 25s linear infinite;
+}
+
+/* Glassmorphism styling */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(232, 190, 81, 0.3);
+}
+
+.glass-dark {
+  background: rgba(12, 35, 60, 0.85);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(232, 190, 81, 0.25);
+}
+
+/* Golden text gradient */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #f5d77f 0%, #d4a017 50%, #b8860b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Card hover lifts */
+.menu-item {
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 30px -5px rgba(12, 35, 60, 0.12);
+  border-color: rgba(212, 160, 23, 0.5);
+}
+
+/* Active Menu filter button */
+.menu-filter-btn.active {
+  background-color: #0c233c !important;
+  color: #f5d77f !important;
+  border-color: #d4a017 !important;
+  box-shadow: 0 4px 12px rgba(12, 35, 60, 0.2);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fbf8f2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4a017;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b8860b;
+}
+
+/* Modal animation */
+#reservationModal.flex {
+  animation: fadeIn 0.2s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

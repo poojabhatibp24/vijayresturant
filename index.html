@@ -1,0 +1,1523 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vijay Restaurant Jodhpur | Authentic Royal Sweets, Malai Roti &amp; Safe Traveler Dining</title>
+  <meta name="description" content="Experience Jodhpur's legendary Malai Roti, Mewa Cream, and authentic Rajasthani heritage cuisine. Foreigner-friendly, 100% safe purified water, customizable spice levels, across 2 prime Jodhpur outlets.">
+  <meta name="keywords" content="Vijay Restaurant Jodhpur, Malai Roti Jodhpur, Mewa Cream, Best sweets in Jodhpur, safe food for foreigners Jodhpur, Blue City food guide, Rajasthani Thali, Makhaniya Lassi">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>V</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            royal: {
+              950: '#071626',
+              900: '#0c233c',
+              800: '#133559',
+              700: '#1b4a7d',
+              600: '#2665aa',
+              500: '#3884d6',
+            },
+            jodhpur: {
+              blue: '#1a5b8c',
+              light: '#3895d3',
+              sky: '#eaf4fc',
+            },
+            gold: {
+              300: '#f5d77f',
+              400: '#e8be51',
+              500: '#d4a017',
+              600: '#b8860b',
+              700: '#8a6405',
+            },
+            sandstone: '#f4ede2',
+            terracotta: '#c85a32',
+            creamy: '#fbf8f2',
+          },
+          fontFamily: {
+            serif: ['Cinzel', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-creamy text-royal-950 font-sans antialiased selection:bg-gold-500 selection:text-white">
+
+  <!-- Top Traveler Guarantee Ribbon -->
+  <div class="bg-royal-950 text-gold-300 text-xs py-2 px-4 border-b border-gold-500/20">
+    <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+      <div class="flex items-center space-x-4">
+        <span class="inline-flex items-center gap-1.5 font-medium">
+          <i data-lucide="shield-check" class="w-3.5 h-3.5 text-emerald-400"></i>
+          <span>100% Safe For Travelers: RO &amp; UV Filtered Water &bull; Fresh Daily Prep</span>
+        </span>
+        <span class="hidden md:inline text-gold-500/40">&bull;</span>
+        <span class="hidden md:inline-flex items-center gap-1.5">
+          <i data-lucide="sparkles" class="w-3.5 h-3.5 text-gold-400"></i>
+          <span>Home to Jodhpur's Iconic Malai Roti &amp; Mewa Cream</span>
+        </span>
+      </div>
+      <div class="flex items-center space-x-4">
+        <span class="inline-flex items-center gap-1 text-slate-300">
+          <i data-lucide="map-pin" class="w-3.5 h-3.5 text-gold-400"></i>
+          <span>2 Outlets in Jodhpur (Old City &bull; High Street)</span>
+        </span>
+        <span class="text-gold-500/40">&bull;</span>
+        <a href="#outlets" class="hover:text-white underline font-semibold transition">Get Taxi/Auto Directions</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-amber-900/10 shadow-sm transition-all duration-300" id="navbar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Logo & Branding -->
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-12 h-12 rounded-full bg-gradient-to-br from-royal-900 to-royal-700 flex items-center justify-center border-2 border-gold-400 shadow-md group-hover:scale-105 transition-transform">
+          <span class="font-serif font-black text-2xl text-gold-400">V</span>
+        </div>
+        <div>
+          <span class="block font-serif text-xl sm:text-2xl font-bold tracking-wider text-royal-950 uppercase leading-tight">
+            Vijay <span class="text-gold-600">Restaurant</span>
+          </span>
+          <span class="block text-[11px] tracking-widest text-slate-500 uppercase font-medium">
+            Jodhpur &bull; Est. Royal Sweets &amp; Cuisine
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="hidden lg:flex items-center space-x-7 text-sm font-semibold tracking-wide text-royal-900">
+        <a href="#about" class="hover:text-gold-600 transition">Our Heritage</a>
+        <a href="#specialties" class="hover:text-gold-600 transition flex items-center gap-1">
+          <span>Malai Roti &amp; Mewa Cream</span>
+          <span class="bg-amber-100 text-amber-900 text-[10px] px-1.5 py-0.5 rounded font-bold uppercase">Must Try</span>
+        </a>
+        <a href="#menu" class="hover:text-gold-600 transition">Traveler Menu</a>
+        <a href="#safe-dining" class="hover:text-gold-600 transition flex items-center gap-1">
+          <i data-lucide="shield" class="w-4 h-4 text-emerald-600"></i>
+          <span>Hygiene Promise</span>
+        </a>
+        <a href="#outlets" class="hover:text-gold-600 transition">2 Outlets</a>
+        <a href="#reviews" class="hover:text-gold-600 transition">Traveler Stories</a>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="hidden sm:flex items-center gap-3">
+        <a href="https://wa.me/919829000000?text=Hello%20Vijay%20Restaurant!%20I%20am%20visiting%20Jodhpur%20and%20would%20like%20to%20reserve%20a%20table%20or%20ask%20about%20Malai%20Roti." target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold uppercase tracking-wider shadow-sm transition">
+          <i data-lucide="message-circle" class="w-4 h-4"></i>
+          <span>WhatsApp Us</span>
+        </a>
+        <button onclick="openReservationModal()" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-gold-600 to-gold-500 hover:from-gold-700 hover:to-gold-600 text-royal-950 font-bold text-xs uppercase tracking-wider shadow-md hover:shadow-lg transition">
+          <i data-lucide="calendar" class="w-4 h-4"></i>
+          <span>Reserve Table</span>
+        </button>
+      </div>
+
+      <!-- Mobile menu button -->
+      <button id="mobileMenuBtn" aria-label="Toggle Menu" class="lg:hidden p-2 rounded-lg text-royal-900 hover:bg-slate-100">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation Dropdown -->
+    <div id="mobileMenu" class="hidden lg:hidden bg-white border-b border-slate-200 px-6 py-5 shadow-xl transition-all">
+      <div class="flex flex-col space-y-4 text-base font-semibold text-royal-900">
+        <a href="#about" class="mobile-nav-link py-1 hover:text-gold-600">Our Heritage</a>
+        <a href="#specialties" class="mobile-nav-link py-1 hover:text-gold-600 text-amber-700 flex items-center justify-between">
+          <span>Malai Roti &amp; Mewa Cream</span>
+          <span class="bg-amber-100 text-amber-800 text-xs px-2 py-0.5 rounded">Specialty</span>
+        </a>
+        <a href="#menu" class="mobile-nav-link py-1 hover:text-gold-600">Traveler Menu</a>
+        <a href="#safe-dining" class="mobile-nav-link py-1 hover:text-gold-600 flex items-center gap-2">
+          <i data-lucide="shield-check" class="w-4 h-4 text-emerald-600"></i>
+          <span>Hygiene &amp; Safe Water Guarantee</span>
+        </a>
+        <a href="#outlets" class="mobile-nav-link py-1 hover:text-gold-600">Our 2 Outlets (Clock Tower &amp; High St)</a>
+        <a href="#reviews" class="mobile-nav-link py-1 hover:text-gold-600">Traveler Reviews</a>
+        <div class="pt-4 border-t border-slate-100 flex flex-col gap-2.5">
+          <a href="https://wa.me/919829000000?text=Hello%20Vijay%20Restaurant!%20I%20am%20visiting%20Jodhpur%20and%20would%20like%20to%20know%20more." target="_blank" class="w-full text-center py-2.5 bg-emerald-600 text-white rounded-lg font-bold flex items-center justify-center gap-2 text-sm">
+            <i data-lucide="message-circle" class="w-4 h-4"></i> WhatsApp Chat (English Spoken)
+          </a>
+          <button onclick="openReservationModal()" class="w-full text-center py-2.5 bg-gold-500 hover:bg-gold-600 text-royal-950 font-bold rounded-lg text-sm">
+            Reserve a Table
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="relative min-h-[90vh] flex items-center justify-center bg-royal-950 text-white overflow-hidden">
+    <!-- Background Image with Overlay -->
+    <div class="absolute inset-0 z-0">
+      <img src="https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=2000&q=80" alt="Mehrangarh Fort Jodhpur Royal Blue City" class="w-full h-full object-cover object-center opacity-30 transform scale-105 transition-transform duration-10000 animate-pulse-slow">
+      <div class="absolute inset-0 bg-gradient-to-t from-royal-950 via-royal-950/75 to-transparent"></div>
+      <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-transparent via-royal-950/40 to-royal-950"></div>
+    </div>
+
+    <!-- Decorative Royal Pattern SVG Background -->
+    <div class="absolute inset-0 pointer-events-none opacity-5 bg-[radial-gradient(#e8be51_1px,transparent_1px)] [background-size:24px_24px]"></div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+      
+      <!-- Welcome Pill for Foreign Tourists -->
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gold-500/10 border border-gold-400/30 text-gold-300 text-xs sm:text-sm font-semibold tracking-wider uppercase mb-6 backdrop-blur-md">
+        <i data-lucide="compass" class="w-4 h-4 text-gold-400 animate-spin-slow"></i>
+        <span>Padharo Mhare Desh &bull; Welcome International Travelers to Jodhpur</span>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="font-serif text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white max-w-5xl mx-auto leading-tight sm:leading-none mb-6">
+        Taste The Rare Royal Wonders of <span class="text-transparent bg-clip-text bg-gradient-to-r from-gold-300 via-gold-400 to-amber-200">The Blue City</span>
+      </h1>
+
+      <!-- Subtitle -->
+      <p class="font-sans text-base sm:text-lg md:text-xl text-slate-300 max-w-3xl mx-auto font-light leading-relaxed mb-8">
+        Welcome to <strong class="text-white font-semibold">Vijay Restaurant</strong>. Jodhpur's authentic home for the legendary, ultra-delicate <span class="text-gold-300 font-medium">Malai Roti</span> and decadent <span class="text-gold-300 font-medium">Mewa Cream</span>. 
+        Curated with meticulous hygiene, RO purified water, customizable spice levels, and heartfelt Rajasthani hospitality.
+      </p>
+
+      <!-- Trust Badges Bar (Critical for Foreigners) -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-4xl mx-auto mb-10 text-xs sm:text-sm">
+        <div class="bg-royal-900/60 backdrop-blur-sm border border-gold-400/20 rounded-xl p-3 flex items-center justify-center gap-2">
+          <i data-lucide="droplet" class="w-5 h-5 text-sky-400"></i>
+          <span class="text-slate-200 font-medium">100% RO Filtered Water</span>
+        </div>
+        <div class="bg-royal-900/60 backdrop-blur-sm border border-gold-400/20 rounded-xl p-3 flex items-center justify-center gap-2">
+          <i data-lucide="flame" class="w-5 h-5 text-amber-400"></i>
+          <span class="text-slate-200 font-medium">Mild / Zero Heat Option</span>
+        </div>
+        <div class="bg-royal-900/60 backdrop-blur-sm border border-gold-400/20 rounded-xl p-3 flex items-center justify-center gap-2">
+          <i data-lucide="languages" class="w-5 h-5 text-emerald-400"></i>
+          <span class="text-slate-200 font-medium">English Speaking Staff</span>
+        </div>
+        <div class="bg-royal-900/60 backdrop-blur-sm border border-gold-400/20 rounded-xl p-3 flex items-center justify-center gap-2">
+          <i data-lucide="credit-card" class="w-5 h-5 text-purple-400"></i>
+          <span class="text-slate-200 font-medium">Int'l Cards &amp; Apple Pay</span>
+        </div>
+      </div>
+
+      <!-- Hero CTAs -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="#specialties" class="w-full sm:w-auto px-8 py-4 rounded-full bg-gradient-to-r from-gold-500 to-amber-600 hover:from-gold-600 hover:to-amber-700 text-royal-950 font-bold text-sm sm:text-base uppercase tracking-wider shadow-lg hover:shadow-gold-500/30 transition transform hover:-translate-y-0.5 flex items-center justify-center gap-3">
+          <span>Discover Malai Roti &amp; Sweets</span>
+          <i data-lucide="arrow-right" class="w-5 h-5"></i>
+        </a>
+        <a href="#outlets" class="w-full sm:w-auto px-8 py-4 rounded-full bg-royal-800/80 hover:bg-royal-800 text-white border border-gold-400/40 font-bold text-sm sm:text-base uppercase tracking-wider transition backdrop-blur-md flex items-center justify-center gap-2">
+          <i data-lucide="map-pin" class="w-5 h-5 text-gold-400"></i>
+          <span>Find Our 2 Outlets</span>
+        </a>
+      </div>
+
+      <!-- Quick Ratings & Recognition -->
+      <div class="mt-12 pt-8 border-t border-slate-800/80 flex flex-wrap items-center justify-center gap-8 text-slate-400 text-xs sm:text-sm">
+        <div class="flex items-center gap-1.5">
+          <div class="flex text-amber-400">
+            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+          </div>
+          <span class="text-white font-bold">4.9 / 5.0</span>
+          <span>(1,800+ Global Reviews)</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+          <span class="text-slate-300">Open Daily: 7:00 AM &ndash; 11:00 PM</span>
+        </div>
+        <div class="flex items-center gap-1 text-slate-300">
+          <i data-lucide="award" class="w-4 h-4 text-gold-400"></i>
+          <span>Featured in Jodhpur Heritage Culinary Trails</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- QUICK INTRO / WHY TOURISTS LOVE VIJAY RESTAURANT -->
+  <section id="about" class="py-20 bg-sandstone/40 border-b border-amber-900/10 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Image Grid -->
+        <div class="lg:col-span-5 grid grid-cols-2 gap-4">
+          <div class="space-y-4">
+            <div class="rounded-2xl overflow-hidden shadow-lg border border-amber-900/10 group">
+              <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80" alt="Authentic Jodhpur Sweets & Deserts" class="w-full h-52 object-cover group-hover:scale-105 transition duration-500">
+            </div>
+            <div class="bg-royal-900 text-white p-5 rounded-2xl shadow-lg border border-gold-400/30">
+              <div class="font-serif text-3xl font-extrabold text-gold-400">100%</div>
+              <div class="text-xs uppercase tracking-wider text-slate-300 mt-1 font-semibold">Pure Desi Ghee &amp; Fresh Milk</div>
+              <p class="text-[11px] text-slate-300 mt-2">Zero artificial additives, purely handcrafted fresh twice every single day.</p>
+            </div>
+          </div>
+          <div class="space-y-4 pt-6">
+            <div class="bg-white p-5 rounded-2xl shadow-lg border border-amber-900/10">
+              <div class="font-serif text-3xl font-extrabold text-royal-950">2 Outlets</div>
+              <div class="text-xs uppercase tracking-wider text-amber-700 mt-1 font-semibold">In Prime Jodhpur</div>
+              <p class="text-[11px] text-slate-600 mt-2">Historic Sardar Clock Tower &amp; Modern Paota High Street.</p>
+            </div>
+            <div class="rounded-2xl overflow-hidden shadow-lg border border-amber-900/10 group">
+              <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" alt="Heritage Dining Ambience" class="w-full h-52 object-cover group-hover:scale-105 transition duration-500">
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Content Column -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-100 text-amber-900 text-xs font-bold uppercase tracking-wider">
+            <i data-lucide="crown" class="w-3.5 h-3.5 text-amber-700"></i>
+            <span>A Taste of Marwar Royalty</span>
+          </div>
+
+          <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-extrabold text-royal-950 leading-tight">
+            Crafting Jodhpur's Rarest Flavors With <span class="text-gold-600">Pure Hospitality</span>
+          </h2>
+
+          <p class="text-slate-700 text-base sm:text-lg leading-relaxed">
+            For decades, <strong class="text-royal-950">Vijay Restaurant</strong> has stood as a sacred culinary landmark in Jodhpur. While the Blue City is globally renowned for Mehrangarh Fort and Umaid Bhawan Palace, true connoisseurs know its sweetest secret lies in its desserts.
+          </p>
+
+          <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+            We understand that exploring Indian cuisine as an international traveler can sometimes feel overwhelming. That is why at Vijay Restaurant, we seamlessly bridge ancient royal Marwari recipes with international safety standards:
+          </p>
+
+          <!-- Key Pillars -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+            <div class="flex items-start gap-3 bg-white p-4 rounded-xl border border-amber-900/10 shadow-sm">
+              <div class="p-2 rounded-lg bg-amber-50 text-amber-700 shrink-0">
+                <i data-lucide="heart-handshake" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-royal-950 text-sm">Gentle on International Stomachs</h4>
+                <p class="text-xs text-slate-600 mt-1">We cook with light cold-pressed oils, pure butterfat ghee, and accommodate spice preferences.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 bg-white p-4 rounded-xl border border-amber-900/10 shadow-sm">
+              <div class="p-2 rounded-lg bg-emerald-50 text-emerald-700 shrink-0">
+                <i data-lucide="sparkle" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-royal-950 text-sm">Pristine Hygiene &amp; Open Kitchen</h4>
+                <p class="text-xs text-slate-600 mt-1">Stainless-steel preparation, gloves, sterile tableware, and RO water for all drinks and cooking.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 bg-white p-4 rounded-xl border border-amber-900/10 shadow-sm">
+              <div class="p-2 rounded-lg bg-blue-50 text-blue-700 shrink-0">
+                <i data-lucide="help-circle" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-royal-950 text-sm">English Culinary Storytelling</h4>
+                <p class="text-xs text-slate-600 mt-1">Our hosts explain how each dessert is made, what ingredients are inside, and how locals enjoy it.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 bg-white p-4 rounded-xl border border-amber-900/10 shadow-sm">
+              <div class="p-2 rounded-lg bg-purple-50 text-purple-700 shrink-0">
+                <i data-lucide="shield-check" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-royal-950 text-sm">100% Pure Vegetarian</h4>
+                <p class="text-xs text-slate-600 mt-1">Completely meat-free kitchen adhering to the highest satvik cleanliness traditions.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SPECIALTIES SECTION: MALAI ROTI & MEWA CREAM (CORE HIGHLIGHT) -->
+  <section id="specialties" class="py-24 bg-white relative overflow-hidden">
+    <!-- Background Accents -->
+    <div class="absolute top-0 right-0 w-96 h-96 bg-amber-100/50 rounded-full blur-3xl -z-10"></div>
+    <div class="absolute bottom-0 left-0 w-96 h-96 bg-jodhpur-sky rounded-full blur-3xl -z-10"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Heading -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-gold-500/10 text-gold-700 text-xs font-bold uppercase tracking-widest border border-gold-500/30">
+          <i data-lucide="gem" class="w-3.5 h-3.5 text-gold-600"></i>
+          Jodhpur's Crown Jewels
+        </span>
+        <h2 class="font-serif text-3xl sm:text-5xl font-extrabold text-royal-950 mt-4 leading-tight">
+          The Two Legendary Delicacies You <span class="text-transparent bg-clip-text bg-gradient-to-r from-gold-600 to-terracotta">Cannot Leave Jodhpur</span> Without Tasting
+        </h2>
+        <p class="text-slate-600 text-base sm:text-lg mt-4">
+          Nowhere else on planet earth will you discover culinary craftsmanship quite like this. Prepared through hours of patient reduction by master sweet-makers.
+        </p>
+      </div>
+
+      <!-- Specialty 1: MALAI ROTI -->
+      <div class="bg-gradient-to-br from-sandstone/80 via-creamy to-white rounded-3xl border-2 border-gold-400/40 p-6 sm:p-10 lg:p-12 mb-16 shadow-xl relative overflow-hidden">
+        <div class="absolute top-4 right-4 sm:top-6 sm:right-6 bg-gold-500 text-royal-950 text-xs sm:text-sm font-black uppercase tracking-wider px-3.5 py-1.5 rounded-full shadow-md">
+          Signature Masterpiece
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+          
+          <div class="lg:col-span-6 space-y-5">
+            <div class="flex items-center gap-2 text-gold-700 font-bold text-sm tracking-wider uppercase">
+              <i data-lucide="sparkles" class="w-4 h-4 text-gold-500"></i>
+              <span>Exclusive Royal Heritage Recipe</span>
+            </div>
+
+            <h3 class="font-serif text-3xl sm:text-4xl font-bold text-royal-950">
+              The Famous Jodhpuri <span class="text-gold-600">Malai Roti</span>
+            </h3>
+
+            <p class="text-slate-700 text-base leading-relaxed">
+              Contrary to its name, this is <em>not</em> bread. <strong class="text-royal-950 font-semibold">Malai Roti</strong> is an impossibly delicate sweet formed solely from thin, velvety layers of clotted milk cream that skim the surface of slow-simmered, saffron-infused cow's milk.
+            </p>
+
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Each sheet is skillfully lifted with a silver needle, stacked delicately in rounds resembling flatbread, drizzled with aromatic cardamom syrup, garnished with hand-crushed Iranian pistachios, and crowned with real <em>Chandi ka Varq</em> (pure edible silver foil). It melts instantaneously on your tongue like chilled silk.
+            </p>
+
+            <!-- Food Specs / Traveler Notes -->
+            <div class="bg-white/90 rounded-2xl p-4 border border-gold-400/30 grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
+              <div class="border-r border-slate-200 last:border-0">
+                <span class="block text-[11px] text-slate-500 uppercase font-semibold">Texture</span>
+                <span class="font-bold text-royal-950 text-xs sm:text-sm">Silky &amp; Melt-in-Mouth</span>
+              </div>
+              <div class="border-r border-slate-200 last:border-0">
+                <span class="block text-[11px] text-slate-500 uppercase font-semibold">Sweetness</span>
+                <span class="font-bold text-royal-950 text-xs sm:text-sm">Delicate &amp; Mild</span>
+              </div>
+              <div class="border-r border-slate-200 last:border-0">
+                <span class="block text-[11px] text-slate-500 uppercase font-semibold">Spice Heat</span>
+                <span class="font-bold text-emerald-600 text-xs sm:text-sm">0% (Cardamom only)</span>
+              </div>
+              <div>
+                <span class="block text-[11px] text-slate-500 uppercase font-semibold">Serving</span>
+                <span class="font-bold text-royal-950 text-xs sm:text-sm">Chilled or Fresh</span>
+              </div>
+            </div>
+
+            <div class="flex flex-wrap items-center gap-4 pt-2">
+              <a href="#outlets" class="px-6 py-3 rounded-full bg-royal-950 hover:bg-royal-900 text-gold-300 font-bold text-xs uppercase tracking-wider inline-flex items-center gap-2 shadow-md transition">
+                <i data-lucide="utensils" class="w-4 h-4 text-gold-400"></i>
+                <span>Taste it at Vijay Restaurant</span>
+              </a>
+              <span class="text-xs text-slate-500 italic flex items-center gap-1">
+                <i data-lucide="info" class="w-4 h-4 text-amber-600"></i>
+                Limited batches daily due to 4-hour preparation process
+              </span>
+            </div>
+          </div>
+
+          <!-- Image Display -->
+          <div class="lg:col-span-6 relative">
+            <div class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white aspect-[4/3] group">
+              <img src="https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=1000&q=80" alt="Royal Malai Roti Jodhpur Saffron and Cream Dessert" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+              <div class="absolute inset-0 bg-gradient-to-t from-royal-950/80 via-transparent to-transparent"></div>
+              <div class="absolute bottom-4 left-4 right-4 text-white">
+                <span class="inline-block bg-gold-500 text-royal-950 text-[10px] font-extrabold uppercase px-2 py-0.5 rounded mb-1">Authentic Jodhpur Treat</span>
+                <h4 class="font-serif text-lg font-bold">Handcrafted Layered Cream with Saffron &amp; Pistachio</h4>
+                <p class="text-xs text-slate-200">Prepared fresh every morning at Vijay Restaurant.</p>
+              </div>
+            </div>
+
+            <!-- Floating Badge -->
+            <div class="absolute -bottom-4 -left-4 sm:-bottom-5 sm:-left-5 bg-white rounded-2xl shadow-xl p-3 border border-amber-900/10 flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center text-amber-800 font-bold">
+                <i data-lucide="award" class="w-5 h-5 text-gold-600"></i>
+              </div>
+              <div>
+                <span class="block text-xs font-bold text-royal-950">100% Unique to Jodhpur</span>
+                <span class="block text-[10px] text-slate-500">A dessert you won't find across typical tourist trails</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Specialty 2: MEWA CREAM -->
+      <div class="bg-gradient-to-br from-royal-950 via-royal-900 to-royal-800 rounded-3xl border-2 border-gold-400/30 p-6 sm:p-10 lg:p-12 shadow-2xl text-white relative overflow-hidden">
+        <div class="absolute top-4 right-4 sm:top-6 sm:right-6 bg-gradient-to-r from-amber-400 to-gold-400 text-royal-950 text-xs sm:text-sm font-black uppercase tracking-wider px-3.5 py-1.5 rounded-full shadow-md">
+          Chilled Luxury
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+          
+          <!-- Image Display (Left) -->
+          <div class="lg:col-span-6 order-2 lg:order-1 relative">
+            <div class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-royal-700/60 aspect-[4/3] group">
+              <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=1000&q=80" alt="Mewa Cream Dry Fruit Rich Dessert Jodhpur" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+              <div class="absolute inset-0 bg-gradient-to-t from-royal-950/90 via-transparent to-transparent"></div>
+              <div class="absolute bottom-4 left-4 right-4 text-white">
+                <span class="inline-block bg-gold-400 text-royal-950 text-[10px] font-extrabold uppercase px-2 py-0.5 rounded mb-1">Earthen Matka Serving</span>
+                <h4 class="font-serif text-lg font-bold">Loaded with Almonds, Cashews, Pistachios &amp; Saffron</h4>
+                <p class="text-xs text-slate-300">The perfect antidote to a warm sun-drenched afternoon in the Blue City.</p>
+              </div>
+            </div>
+
+            <!-- Floating Badge -->
+            <div class="absolute -bottom-4 -right-4 sm:-bottom-5 sm:-right-5 bg-royal-800/90 backdrop-blur-md rounded-2xl shadow-xl p-3 border border-gold-400/30 flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-gold-500/20 flex items-center justify-center text-gold-400 font-bold">
+                <i data-lucide="snowflake" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <span class="block text-xs font-bold text-white">Served Chilled Daily</span>
+                <span class="block text-[10px] text-slate-300">Refreshing, nutrient-dense &amp; royal</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Content (Right) -->
+          <div class="lg:col-span-6 order-1 lg:order-2 space-y-5">
+            <div class="flex items-center gap-2 text-gold-400 font-bold text-sm tracking-wider uppercase">
+              <i data-lucide="sparkles" class="w-4 h-4 text-gold-400"></i>
+              <span>High-Energy Royal Concoction</span>
+            </div>
+
+            <h3 class="font-serif text-3xl sm:text-4xl font-bold text-white">
+              The Rich &amp; Nutritious <span class="text-transparent bg-clip-text bg-gradient-to-r from-gold-300 to-amber-400">Mewa Cream</span>
+            </h3>
+
+            <p class="text-slate-300 text-base leading-relaxed">
+              <em>Mewa</em> is the Hindi/Marwari term for royal dry fruits. Our <strong class="text-white font-semibold">Mewa Cream</strong> is a lavish bowl of dense, chilled artisanal clotted cream blended with crushed Kashmiri almonds, roasted cashews, green pistachios, charoli seeds, pure saffron, and a hint of wild honey.
+            </p>
+
+            <p class="text-slate-300 text-sm leading-relaxed">
+              Loved by travelers from around the world as an indulgent, wholesome alternative to Western gelato or custard. It is rich, naturally sustaining, and prepared strictly with farm-fresh whole milk.
+            </p>
+
+            <!-- Food Specs -->
+            <div class="bg-royal-800/70 backdrop-blur-sm rounded-2xl p-4 border border-gold-400/20 grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
+              <div class="border-r border-royal-700 last:border-0">
+                <span class="block text-[11px] text-slate-400 uppercase font-semibold">Nuts Included</span>
+                <span class="font-bold text-gold-300 text-xs sm:text-sm">Almond, Pista, Kaju</span>
+              </div>
+              <div class="border-r border-royal-700 last:border-0">
+                <span class="block text-[11px] text-slate-400 uppercase font-semibold">Dairy Base</span>
+                <span class="font-bold text-white text-xs sm:text-sm">Pure Whole Milk</span>
+              </div>
+              <div class="border-r border-royal-700 last:border-0">
+                <span class="block text-[11px] text-slate-400 uppercase font-semibold">Diet Type</span>
+                <span class="font-bold text-emerald-400 text-xs sm:text-sm">100% Vegetarian</span>
+              </div>
+              <div>
+                <span class="block text-[11px] text-slate-400 uppercase font-semibold">Nut-Allergy</span>
+                <span class="font-bold text-amber-300 text-xs sm:text-sm">Contains Nuts</span>
+              </div>
+            </div>
+
+            <div class="flex flex-wrap items-center gap-4 pt-2">
+              <a href="https://wa.me/919829000000?text=Hi%20Vijay%20Restaurant!%20Can%20I%20order%20or%20reserve%20Mewa%20Cream%20for%20pickup%20or%20dine-in?" target="_blank" class="px-6 py-3 rounded-full bg-gradient-to-r from-gold-500 to-amber-500 hover:from-gold-600 hover:to-amber-600 text-royal-950 font-bold text-xs uppercase tracking-wider inline-flex items-center gap-2 shadow-lg transition">
+                <i data-lucide="message-circle" class="w-4 h-4"></i>
+                <span>Ask via WhatsApp</span>
+              </a>
+              <a href="#menu" class="text-xs text-gold-300 hover:text-white underline font-semibold transition">
+                View Full Sweets &amp; Savory Menu &rarr;
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TRAVELER'S SAFE DINING & HYGIENE PROMISE SECTION (CRITICAL FOR FOREIGN VISITORS) -->
+  <section id="safe-dining" class="py-20 bg-slate-900 text-white relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-400 text-xs font-bold uppercase tracking-wider border border-emerald-500/30">
+          <i data-lucide="shield-check" class="w-4 h-4"></i>
+          Traveler Peace of Mind
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mt-4">
+          Eat Street &amp; Royal Flavors <span class="text-emerald-400">Without Fear</span>
+        </h2>
+        <p class="text-slate-300 text-sm sm:text-base mt-3">
+          We know that hygiene and water quality are the #1 priority when visiting India. Here is how Vijay Restaurant guarantees you a delicious, worry-free stay in Jodhpur.
+        </p>
+      </div>
+
+      <!-- 6 Safety Pillars -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- 1: Water Safety -->
+        <div class="bg-royal-950/70 border border-slate-700/80 rounded-2xl p-6 hover:border-emerald-500/50 transition">
+          <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center mb-4">
+            <i data-lucide="droplets" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-bold text-lg text-white mb-2">Hospital-Grade RO Water</h3>
+          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+            All cooking, ice, tea, chutneys, and hand-washing water run through industrial multi-stage Reverse Osmosis + UV sterilization. Sealed branded mineral water bottles are also provided at table.
+          </p>
+        </div>
+
+        <!-- 2: Customizable Heat Levels -->
+        <div class="bg-royal-950/70 border border-slate-700/80 rounded-2xl p-6 hover:border-amber-500/50 transition">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center mb-4">
+            <i data-lucide="thermometer-snowflake" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-bold text-lg text-white mb-2">Customizable Spice Levels</h3>
+          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+            Afraid of excessive chili heat? Just tell our team "Mild" or "Non-Spicy"! We adjust spice blends on made-to-order dishes so you experience flavors and aromatics without burning heat.
+          </p>
+        </div>
+
+        <!-- 3: Daily Fresh Cooking -->
+        <div class="bg-royal-950/70 border border-slate-700/80 rounded-2xl p-6 hover:border-sky-500/50 transition">
+          <div class="w-12 h-12 rounded-xl bg-sky-500/10 text-sky-400 flex items-center justify-center mb-4">
+            <i data-lucide="clock" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-bold text-lg text-white mb-2">Zero Reheating / Made Fresh</h3>
+          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+            Our savories, samosas, kachoris, and curries are cooked fresh in small batches throughout the day. No stale leftovers or overnight refrigeration.
+          </p>
+        </div>
+
+        <!-- 4: English Menus & Clear Allergen Labels -->
+        <div class="bg-royal-950/70 border border-slate-700/80 rounded-2xl p-6 hover:border-purple-500/50 transition">
+          <div class="w-12 h-12 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center mb-4">
+            <i data-lucide="file-text" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-bold text-lg text-white mb-2">English Menus &amp; Allergy Guidance</h3>
+          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+            Detailed ingredient breakdowns for nut allergies, lactose sensitivity, or vegan requirements. Our English-fluent captains will personally assist your ordering.
+          </p>
+        </div>
+
+        <!-- 5: Air-Conditioned Clean Dining -->
+        <div class="bg-royal-950/70 border border-slate-700/80 rounded-2xl p-6 hover:border-gold-500/50 transition">
+          <div class="w-12 h-12 rounded-xl bg-gold-500/10 text-gold-400 flex items-center justify-center mb-4">
+            <i data-lucide="wind" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-bold text-lg text-white mb-2">Air-Conditioned &amp; Restroom Facilities</h3>
+          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+            Escape the desert heat. Both of our outlets offer cool, air-conditioned seating, high-speed free Wi-Fi for your travel maps, and clean western-style restrooms.
+          </p>
+        </div>
+
+        <!-- 6: Global Payments Accepted -->
+        <div class="bg-royal-950/70 border border-slate-700/80 rounded-2xl p-6 hover:border-blue-500/50 transition">
+          <div class="w-12 h-12 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center mb-4">
+            <i data-lucide="credit-card" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-bold text-lg text-white mb-2">Foreign Cards &amp; Digital Pay</h3>
+          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+            No need to scramble for loose rupees. We accept Visa, Mastercard, American Express, Apple Pay, Google Pay, UPI, and clean currency notes.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- INTERACTIVE TRAVELER MENU SECTION -->
+  <section id="menu" class="py-24 bg-creamy relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Heading -->
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-amber-100 text-amber-900 text-xs font-bold uppercase tracking-wider">
+          <i data-lucide="book-open" class="w-3.5 h-3.5"></i>
+          Taste Jodhpur Like a Local
+        </span>
+        <h2 class="font-serif text-3xl sm:text-5xl font-extrabold text-royal-950 mt-3">
+          Our Curated Traveler Menu
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base mt-3">
+          Every item comes with flavor notes, spice ratings, and dietary indications so you can order with absolute confidence.
+        </p>
+
+        <!-- Category Filter Tabs -->
+        <div class="flex flex-wrap justify-center gap-2 mt-8" id="menuFilterContainer">
+          <button class="menu-filter-btn active px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition bg-royal-950 text-gold-300" data-category="all">
+            All Items
+          </button>
+          <button class="menu-filter-btn px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition bg-white text-royal-900 border border-slate-200 hover:border-gold-500" data-category="specialty">
+            Royal Specialties (Malai Roti)
+          </button>
+          <button class="menu-filter-btn px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition bg-white text-royal-900 border border-slate-200 hover:border-gold-500" data-category="desserts">
+            Traditional Sweets
+          </button>
+          <button class="menu-filter-btn px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition bg-white text-royal-900 border border-slate-200 hover:border-gold-500" data-category="savory">
+            Jodhpuri Savories &amp; Snacks
+          </button>
+          <button class="menu-filter-btn px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition bg-white text-royal-900 border border-slate-200 hover:border-gold-500" data-category="beverages">
+            Royal Lassi &amp; Drinks
+          </button>
+          <button class="menu-filter-btn px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition bg-white text-royal-900 border border-slate-200 hover:border-gold-500" data-category="meals">
+            Rajasthani Thali &amp; Meals
+          </button>
+        </div>
+      </div>
+
+      <!-- Menu Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="menuGrid">
+        
+        <!-- 1: Malai Roti -->
+        <div class="menu-item bg-white rounded-2xl overflow-hidden border border-amber-900/10 shadow-md hover:shadow-xl transition-all duration-300 flex flex-col" data-category="specialty">
+          <div class="relative h-48 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=600&q=80" alt="Royal Malai Roti" class="w-full h-full object-cover">
+            <span class="absolute top-3 left-3 bg-gold-500 text-royal-950 font-black text-[10px] uppercase tracking-wider px-2.5 py-1 rounded-md shadow">
+              #1 Must Try
+            </span>
+            <span class="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-royal-900 font-bold text-xs px-2.5 py-1 rounded-md">
+              &#8377;80 / pc
+            </span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-1">
+                <h3 class="font-serif font-bold text-lg text-royal-950">Royal Malai Roti</h3>
+                <span class="text-xs text-emerald-600 font-semibold bg-emerald-50 px-2 py-0.5 rounded">0% Spice</span>
+              </div>
+              <p class="text-slate-600 text-xs leading-relaxed mb-3">
+                Silky layers of clotted milk cream soaked in saffron-cardamom syrup, topped with slivered pistachio and silver leaf. Melts on the tongue.
+              </p>
+            </div>
+            <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+              <span>Pure Cow Milk &bull; Saffron</span>
+              <span class="font-semibold text-amber-700">Jodhpur Specialty</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2: Mewa Cream -->
+        <div class="menu-item bg-white rounded-2xl overflow-hidden border border-amber-900/10 shadow-md hover:shadow-xl transition-all duration-300 flex flex-col" data-category="specialty">
+          <div class="relative h-48 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=600&q=80" alt="Rich Mewa Cream" class="w-full h-full object-cover">
+            <span class="absolute top-3 left-3 bg-royal-900 text-gold-300 font-black text-[10px] uppercase tracking-wider px-2.5 py-1 rounded-md shadow">
+              House Special
+            </span>
+            <span class="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-royal-900 font-bold text-xs px-2.5 py-1 rounded-md">
+              &#8377;90 / cup
+            </span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-1">
+                <h3 class="font-serif font-bold text-lg text-royal-950">Chilled Mewa Cream</h3>
+                <span class="text-xs text-emerald-600 font-semibold bg-emerald-50 px-2 py-0.5 rounded">0% Spice</span>
+              </div>
+              <p class="text-slate-600 text-xs leading-relaxed mb-3">
+                Thick royal cream whipped with chopped almonds, cashew nuts, pistachios, honey, and saffron. Served ice-cold in clay matka.
+              </p>
+            </div>
+            <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+              <span>Whole Cream &bull; Dry Fruits</span>
+              <span class="font-semibold text-amber-700">Cooling &amp; Rich</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3: Makhaniya Lassi -->
+        <div class="menu-item bg-white rounded-2xl overflow-hidden border border-amber-900/10 shadow-md hover:shadow-xl transition-all duration-300 flex flex-col" data-category="beverages">
+          <div class="relative h-48 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80" alt="Jodhpuri Makhaniya Lassi" class="w-full h-full object-cover">
+            <span class="absolute top-3 left-3 bg-amber-500 text-white font-black text-[10px] uppercase tracking-wider px-2.5 py-1 rounded-md shadow">
+              Famous Drink
+            </span>
+            <span class="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-royal-900 font-bold text-xs px-2.5 py-1 rounded-md">
+              &#8377;60 / kulhad
+            </span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-1">
+                <h3 class="font-serif font-bold text-lg text-royal-950">Makhaniya Lassi</h3>
+                <span class="text-xs text-blue-600 font-semibold bg-blue-50 px-2 py-0.5 rounded">Digestive</span>
+              </div>
+              <p class="text-slate-600 text-xs leading-relaxed mb-3">
+                Thick sweetened yogurt blended with cardamom and saffron water, crowned with a dollop of fresh hand-churned white butter (makhan).
+              </p>
+            </div>
+            <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+              <span>Clay Kulhad &bull; Probiotic</span>
+              <span class="font-semibold text-amber-700">Refreshing</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4: Jodhpuri Pyaaz Kachori -->
+        <div class="menu-item bg-white rounded-2xl overflow-hidden border border-amber-900/10 shadow-md hover:shadow-xl transition-all duration-300 flex flex-col" data-category="savory">
+          <div class="relative h-48 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80" alt="Jodhpur Famous Pyaaz Kachori" class="w-full h-full object-cover">
+            <span class="absolute top-3 left-3 bg-terracotta text-white font-black text-[10px] uppercase tracking-wider px-2.5 py-1 rounded-md shadow">
+              Crisp &amp; Golden
+            </span>
+            <span class="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-royal-900 font-bold text-xs px-2.5 py-1 rounded-md">
+              &#8377;35 / pc
+            </span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-1">
+                <h3 class="font-serif font-bold text-lg text-royal-950">Jodhpuri Pyaaz Kachori</h3>
+                <span class="text-xs text-amber-700 font-semibold bg-amber-50 px-2 py-0.5 rounded">Medium Spice</span>
+              </div>
+              <p class="text-slate-600 text-xs leading-relaxed mb-3">
+                Flaky pastry puffed to perfection, stuffed with caramelized spiced onions, fennel, and coriander seeds. Served with sweet tamarind chutney.
+              </p>
+            </div>
+            <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+              <span>Cooked Fresh Hourly</span>
+              <span class="font-semibold text-amber-700">Breakfast Classic</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5: Mirchi Vada (Tourist Friendly Mild Option) -->
+        <div class="menu-item bg-white rounded-2xl overflow-hidden border border-amber-900/10 shadow-md hover:shadow-xl transition-all duration-300 flex flex-col" data-category="savory">
+          <div class="relative h-48 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=600&q=80" alt="Jodhpur Mirchi Vada" class="w-full h-full object-cover">
+            <span class="absolute top-3 left-3 bg-emerald-600 text-white font-black text-[10px] uppercase tracking-wider px-2.5 py-1 rounded-md shadow">
+              Jodhpur Icon
+            </span>
+            <span class="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-royal-900 font-bold text-xs px-2.5 py-1 rounded-md">
+              &#8377;30 / pc
+            </span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-1">
+                <h3 class="font-serif font-bold text-lg text-royal-950">Jodhpur Mirchi Vada</h3>
+                <span class="text-xs text-amber-700 font-semibold bg-amber-50 px-2 py-0.5 rounded">Mild Chili Base</span>
+              </div>
+              <p class="text-slate-600 text-xs leading-relaxed mb-3">
+                Large, mild Bhavnagri green pepper deseeded, filled with spiced mashed potato masala, coated in gram-flour batter and fried crisp.
+              </p>
+            </div>
+            <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+              <span>Mild Pepper &bull; Tangy Dip</span>
+              <span class="font-semibold text-amber-700">Must Try Snack</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6: Traditional Rajasthani Dal Baati Churma -->
+        <div class="menu-item bg-white rounded-2xl overflow-hidden border border-amber-900/10 shadow-md hover:shadow-xl transition-all duration-300 flex flex-col" data-category="meals">
+          <div class="relative h-48 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80" alt="Royal Rajasthani Thali Dal Baati" class="w-full h-full object-cover">
+            <span class="absolute top-3 left-3 bg-gold-600 text-white font-black text-[10px] uppercase tracking-wider px-2.5 py-1 rounded-md shadow">
+              Full Meal
+            </span>
+            <span class="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-royal-900 font-bold text-xs px-2.5 py-1 rounded-md">
+              &#8377;250 / thali
+            </span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-1">
+                <h3 class="font-serif font-bold text-lg text-royal-950">Royal Dal Baati Churma Thali</h3>
+                <span class="text-xs text-sky-700 font-semibold bg-sky-50 px-2 py-0.5 rounded">Custom Heat</span>
+              </div>
+              <p class="text-slate-600 text-xs leading-relaxed mb-3">
+                The state dish of Rajasthan. Baked wheat dumplings soaked in pure cow ghee, served with five-lentil Panchmel Dal, sweet Churma, and mint chutney.
+              </p>
+            </div>
+            <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+              <span>Complete Lunch / Dinner</span>
+              <span class="font-semibold text-amber-700">Hearty &amp; Wholesome</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7: Ghevar (Saffron & Mawa Honeycomb) -->
+        <div class="menu-item bg-white rounded-2xl overflow-hidden border border-amber-900/10 shadow-md hover:shadow-xl transition-all duration-300 flex flex-col" data-category="desserts">
+          <div class="relative h-48 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80" alt="Rajasthani Ghevar" class="w-full h-full object-cover">
+            <span class="absolute top-3 left-3 bg-purple-700 text-white font-black text-[10px] uppercase tracking-wider px-2.5 py-1 rounded-md shadow">
+              Festival Cake
+            </span>
+            <span class="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-royal-900 font-bold text-xs px-2.5 py-1 rounded-md">
+              &#8377;120 / portion
+            </span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-1">
+                <h3 class="font-serif font-bold text-lg text-royal-950">Royal Malai Ghevar</h3>
+                <span class="text-xs text-emerald-600 font-semibold bg-emerald-50 px-2 py-0.5 rounded">0% Spice</span>
+              </div>
+              <p class="text-slate-600 text-xs leading-relaxed mb-3">
+                Honeycomb-textured crisp cake fried in ghee, immersed in aromatic sugar syrup, and slathered with thick thickened milk rabdi.
+              </p>
+            </div>
+            <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+              <span>Pure Ghee &bull; Saffron Rabdi</span>
+              <span class="font-semibold text-amber-700">Crisp &amp; Luscious</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8: Gulab Jamun Sabzi (Savory Desert Curry) -->
+        <div class="menu-item bg-white rounded-2xl overflow-hidden border border-amber-900/10 shadow-md hover:shadow-xl transition-all duration-300 flex flex-col" data-category="meals">
+          <div class="relative h-48 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80" alt="Gulab Jamun Sabzi" class="w-full h-full object-cover">
+            <span class="absolute top-3 left-3 bg-amber-700 text-white font-black text-[10px] uppercase tracking-wider px-2.5 py-1 rounded-md shadow">
+              Royal Secret
+            </span>
+            <span class="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-royal-900 font-bold text-xs px-2.5 py-1 rounded-md">
+              &#8377;180
+            </span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-1">
+                <h3 class="font-serif font-bold text-lg text-royal-950">Jodhpuri Gulab Jamun Curry</h3>
+                <span class="text-xs text-sky-700 font-semibold bg-sky-50 px-2 py-0.5 rounded">Mild Cashew Gravy</span>
+              </div>
+              <p class="text-slate-600 text-xs leading-relaxed mb-3">
+                Unsweetened cottage cheese dumplings simmered in a velvety tomato, yogurt, and cashew-nut gravy. A uniquely Jodhpuri savory revelation!
+              </p>
+            </div>
+            <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+              <span>Served with Butter Naan</span>
+              <span class="font-semibold text-amber-700">Unique Rajasthani Dish</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9: Masala Chai & Herbal Kahwa -->
+        <div class="menu-item bg-white rounded-2xl overflow-hidden border border-amber-900/10 shadow-md hover:shadow-xl transition-all duration-300 flex flex-col" data-category="beverages">
+          <div class="relative h-48 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=600&q=80" alt="Indian Masala Chai" class="w-full h-full object-cover">
+            <span class="absolute top-3 left-3 bg-royal-800 text-white font-black text-[10px] uppercase tracking-wider px-2.5 py-1 rounded-md shadow">
+              Brewed Fresh
+            </span>
+            <span class="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-royal-900 font-bold text-xs px-2.5 py-1 rounded-md">
+              &#8377;30 / cup
+            </span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-1">
+                <h3 class="font-serif font-bold text-lg text-royal-950">Royal Spiced Masala Chai</h3>
+                <span class="text-xs text-amber-700 font-semibold bg-amber-50 px-2 py-0.5 rounded">Aromatic</span>
+              </div>
+              <p class="text-slate-600 text-xs leading-relaxed mb-3">
+                Assam tea leaves brewed with crushed fresh ginger, green cardamom, cinnamon, and whole cow milk. Served boiling hot in earthen clay cups.
+              </p>
+            </div>
+            <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+              <span>Mineral Water Brew &bull; Ginger</span>
+              <span class="font-semibold text-amber-700">Warming Comfort</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Menu Footer Note -->
+      <div class="mt-12 p-6 rounded-2xl bg-white border border-amber-900/10 shadow-sm flex flex-col md:flex-row items-center justify-between gap-4">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold shrink-0">
+            <i data-lucide="sparkles" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h4 class="font-bold text-royal-950 text-sm">Have specific dietary requests (Vegan, Jain, Gluten-conscious)?</h4>
+            <p class="text-xs text-slate-600">Our chefs are delighted to customize dishes for you on the spot.</p>
+          </div>
+        </div>
+        <a href="https://wa.me/919829000000?text=Hi%20Vijay%20Restaurant!%20Could%20you%20please%20send%20the%20full%20digital%20menu%20with%20prices?" target="_blank" class="px-5 py-2.5 rounded-full bg-royal-950 hover:bg-royal-900 text-gold-300 font-bold text-xs uppercase tracking-wider inline-flex items-center gap-2 transition shrink-0">
+          <i data-lucide="download" class="w-4 h-4"></i>
+          <span>Request Full PDF Menu</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- THE TWO OUTLETS SECTION (EXACT LOCATIONS & HOW TO VISIT) -->
+  <section id="outlets" class="py-24 bg-white relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-royal-100 text-royal-900 text-xs font-bold uppercase tracking-wider">
+          <i data-lucide="map-pin" class="w-3.5 h-3.5 text-royal-700"></i>
+          Easy To Reach Anywhere in Jodhpur
+        </span>
+        <h2 class="font-serif text-3xl sm:text-5xl font-extrabold text-royal-950 mt-3">
+          Visit Our 2 Outlets in Jodhpur
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base mt-3">
+          Whether you are strolling through the historic alleys of the Old Blue City or staying in modern hotels, there is a Vijay Restaurant nearby.
+        </p>
+      </div>
+
+      <!-- Outlets Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        
+        <!-- OUTLET 1: HERITAGE OLD CITY / CLOCK TOWER -->
+        <div class="rounded-3xl border-2 border-gold-400/30 overflow-hidden shadow-xl bg-gradient-to-b from-sandstone/30 to-white flex flex-col justify-between">
+          <div>
+            <!-- Banner Image -->
+            <div class="relative h-60 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1000&q=80" alt="Jodhpur Clock Tower Sardar Market Branch" class="w-full h-full object-cover">
+              <div class="absolute inset-0 bg-gradient-to-t from-royal-950/80 via-transparent to-transparent"></div>
+              <div class="absolute top-4 left-4 bg-royal-950 text-gold-300 text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full border border-gold-400/30">
+                Heritage Old City Branch
+              </div>
+              <div class="absolute bottom-4 left-4 right-4 text-white">
+                <span class="text-xs text-gold-300 font-semibold">Walking distance from Mehrangarh Stepwell</span>
+                <h3 class="font-serif text-2xl font-bold">Outlet 1: Sardar Market &amp; Clock Tower</h3>
+              </div>
+            </div>
+
+            <!-- Details -->
+            <div class="p-6 sm:p-8 space-y-4">
+              <div class="flex items-start gap-3">
+                <div class="p-2 rounded-lg bg-royal-100 text-royal-900 shrink-0 mt-0.5">
+                  <i data-lucide="map-pin" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-royal-950 text-sm">Exact Location &amp; Landmark</h4>
+                  <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
+                    Near Sardar Market Clock Tower (Ghanta Ghar), just 3 mins walk from Toorji Ka Jhalra Stepwell, Jodhpur Old City (342001).
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <div class="p-2 rounded-lg bg-emerald-100 text-emerald-800 shrink-0 mt-0.5">
+                  <i data-lucide="clock" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-royal-950 text-sm">Timings</h4>
+                  <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
+                    Open Daily: 7:30 AM &ndash; 10:30 PM (Fresh morning batches ready by 8:00 AM)
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <div class="p-2 rounded-lg bg-amber-100 text-amber-800 shrink-0 mt-0.5">
+                  <i data-lucide="navigation" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-royal-950 text-sm">Traveler Taxi / Tuk-Tuk Tip</h4>
+                  <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
+                    Tell your auto/tuk-tuk driver: <em>"Ghanta Ghar Vijay Restaurant near Stepwell"</em>. E-rickshaws easily reach our doorstep.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Quick Perks -->
+              <div class="pt-2 flex flex-wrap gap-2 text-[11px] font-semibold text-slate-600">
+                <span class="bg-slate-100 px-2.5 py-1 rounded-md">&#10003; Walk from Stepwell</span>
+                <span class="bg-slate-100 px-2.5 py-1 rounded-md">&#10003; Heritage Courtyard Vibe</span>
+                <span class="bg-slate-100 px-2.5 py-1 rounded-md">&#10003; Quick Takeaway Boxes</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Action Buttons -->
+          <div class="p-6 sm:p-8 pt-0 flex flex-col sm:flex-row gap-3">
+            <a href="https://maps.google.com/?q=Clock+Tower+Jodhpur+Rajasthan" target="_blank" rel="noopener" class="flex-1 py-3 px-4 rounded-xl bg-royal-950 hover:bg-royal-900 text-gold-300 font-bold text-xs uppercase tracking-wider text-center inline-flex items-center justify-center gap-2 transition shadow">
+              <i data-lucide="map" class="w-4 h-4"></i>
+              <span>Open in Google Maps</span>
+            </a>
+            <a href="tel:+919829000000" class="py-3 px-4 rounded-xl bg-slate-100 hover:bg-slate-200 text-royal-950 font-bold text-xs uppercase tracking-wider text-center inline-flex items-center justify-center gap-2 transition">
+              <i data-lucide="phone" class="w-4 h-4 text-emerald-600"></i>
+              <span>Call Outlet</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- OUTLET 2: MODERN HIGH STREET / PAOTA -->
+        <div class="rounded-3xl border-2 border-gold-400/30 overflow-hidden shadow-xl bg-gradient-to-b from-amber-50/40 to-white flex flex-col justify-between">
+          <div>
+            <!-- Banner Image -->
+            <div class="relative h-60 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80" alt="Vijay Restaurant Paota High Street Branch" class="w-full h-full object-cover">
+              <div class="absolute inset-0 bg-gradient-to-t from-royal-950/80 via-transparent to-transparent"></div>
+              <div class="absolute top-4 left-4 bg-gold-500 text-royal-950 text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full shadow">
+                Modern &amp; Family Dining Branch
+              </div>
+              <div class="absolute bottom-4 left-4 right-4 text-white">
+                <span class="text-xs text-amber-300 font-semibold">Convenient for Tour Busses, Cabs &amp; Families</span>
+                <h3 class="font-serif text-2xl font-bold">Outlet 2: Paota Main High Street</h3>
+              </div>
+            </div>
+
+            <!-- Details -->
+            <div class="p-6 sm:p-8 space-y-4">
+              <div class="flex items-start gap-3">
+                <div class="p-2 rounded-lg bg-gold-100 text-gold-900 shrink-0 mt-0.5">
+                  <i data-lucide="map-pin" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-royal-950 text-sm">Exact Location &amp; Landmark</h4>
+                  <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
+                    Main Paota Road, Opp. Polo Ground / Civil Lines Area, 10 mins from Jodhpur Junction Railway Station (342006).
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <div class="p-2 rounded-lg bg-emerald-100 text-emerald-800 shrink-0 mt-0.5">
+                  <i data-lucide="clock" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-royal-950 text-sm">Timings</h4>
+                  <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
+                    Open Daily: 7:00 AM &ndash; 11:00 PM (Full breakfast, lunch, tea, and dinner)
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <div class="p-2 rounded-lg bg-purple-100 text-purple-800 shrink-0 mt-0.5">
+                  <i data-lucide="car" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-royal-950 text-sm">Spacious Seating &amp; Parking</h4>
+                  <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
+                    Ideal for Uber / Ola cabs, tourist tempo travelers, full AC family seating hall, pristine washrooms.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Quick Perks -->
+              <div class="pt-2 flex flex-wrap gap-2 text-[11px] font-semibold text-slate-600">
+                <span class="bg-slate-100 px-2.5 py-1 rounded-md">&#10003; Full AC Dining Hall</span>
+                <span class="bg-slate-100 px-2.5 py-1 rounded-md">&#10003; Ample Cab Parking</span>
+                <span class="bg-slate-100 px-2.5 py-1 rounded-md">&#10003; Tour Groups Welcome</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Action Buttons -->
+          <div class="p-6 sm:p-8 pt-0 flex flex-col sm:flex-row gap-3">
+            <a href="https://maps.google.com/?q=Paota+Jodhpur+Rajasthan" target="_blank" rel="noopener" class="flex-1 py-3 px-4 rounded-xl bg-gradient-to-r from-gold-600 to-gold-500 hover:from-gold-700 hover:to-gold-600 text-royal-950 font-bold text-xs uppercase tracking-wider text-center inline-flex items-center justify-center gap-2 transition shadow">
+              <i data-lucide="map" class="w-4 h-4"></i>
+              <span>Open in Google Maps</span>
+            </a>
+            <a href="tel:+919829000001" class="py-3 px-4 rounded-xl bg-slate-100 hover:bg-slate-200 text-royal-950 font-bold text-xs uppercase tracking-wider text-center inline-flex items-center justify-center gap-2 transition">
+              <i data-lucide="phone" class="w-4 h-4 text-emerald-600"></i>
+              <span>Call Outlet</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Quick Delivery / Takeaway Pack for Flights & Trains -->
+      <div class="mt-12 bg-royal-950 text-white rounded-3xl p-8 sm:p-10 border border-gold-400/30 flex flex-col lg:flex-row items-center justify-between gap-6">
+        <div class="space-y-2 text-center lg:text-left">
+          <span class="inline-block bg-gold-500/20 text-gold-300 text-xs uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-gold-400/30">
+            Flying Out or Taking The Train?
+          </span>
+          <h3 class="font-serif text-2xl sm:text-3xl font-bold">Special Travel-Proof Vacuum Packaging Available</h3>
+          <p class="text-slate-300 text-xs sm:text-sm max-w-2xl">
+            Want to take Jodhpur's Malai Roti, Mewa Cream, or dry fruit sweets back home to the UK, USA, Europe, or Australia? We provide airtight, TSA/flight-ready dry-ice and vacuum packaging boxes that stay fresh for up to 48 hours!
+          </p>
+        </div>
+        <a href="https://wa.me/919829000000?text=Hello!%20I%20would%20like%20to%20order%20flight-safe%20travel%20boxes%20of%20sweets%20from%20Vijay%20Restaurant." target="_blank" class="px-6 py-3.5 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs uppercase tracking-wider inline-flex items-center gap-2 shrink-0 shadow-lg transition">
+          <i data-lucide="package-check" class="w-4 h-4"></i>
+          <span>Order Travel Box on WhatsApp</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOREIGN TRAVELER REVIEWS & STORIES -->
+  <section id="reviews" class="py-24 bg-sandstone/30 border-t border-b border-amber-900/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-100 text-amber-900 text-xs font-bold uppercase tracking-wider">
+          <i data-lucide="globe" class="w-3.5 h-3.5"></i>
+          International Traveler Love
+        </span>
+        <h2 class="font-serif text-3xl sm:text-5xl font-extrabold text-royal-950 mt-3">
+          What Backpackers &amp; World Explorers Say
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base mt-3">
+          Read genuine impressions from visitors across the globe who fell in love with our sweets and hospitality.
+        </p>
+      </div>
+
+      <!-- Testimonial Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Review 1: UK -->
+        <div class="bg-white rounded-2xl p-6 sm:p-8 border border-amber-900/10 shadow-md flex flex-col justify-between">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <div class="flex text-amber-400">
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              </div>
+              <span class="text-xs text-slate-400">TripAdvisor Verified</span>
+            </div>
+            <p class="text-slate-700 text-sm leading-relaxed italic">
+              "The Malai Roti here is otherworldly! I was terrified of trying dairy sweets in India due to hygiene fears, but Vijay Restaurant was spotlessly clean and used filtered water. The owner patiently explained how it was prepared. Absolutely the highlight dessert of our 3-week Rajasthan trip!"
+            </p>
+          </div>
+          <div class="pt-6 mt-4 border-t border-slate-100 flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-blue-100 text-blue-900 font-bold flex items-center justify-center text-sm">
+              CL
+            </div>
+            <div>
+              <h4 class="font-bold text-royal-950 text-sm">Charlotte &amp; Luke</h4>
+              <p class="text-xs text-slate-500">London, United Kingdom &bull; Visited Oct 2026</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2: France -->
+        <div class="bg-white rounded-2xl p-6 sm:p-8 border border-amber-900/10 shadow-md flex flex-col justify-between">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <div class="flex text-amber-400">
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              </div>
+              <span class="text-xs text-slate-400">Google Review 5&#9733;</span>
+            </div>
+            <p class="text-slate-700 text-sm leading-relaxed italic">
+              "Being French, pastry and cream are sacred to me. The Mewa Cream here rivals Parisian cr&egrave;me br&ucirc;l&eacute;e in richness, but with subtle hints of cardamom, pistachio, and saffron that blow your mind. Also loved their Mirchi Vada made mild for us. English spoken fluently!"
+            </p>
+          </div>
+          <div class="pt-6 mt-4 border-t border-slate-100 flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-rose-100 text-rose-900 font-bold flex items-center justify-center text-sm">
+              AM
+            </div>
+            <div>
+              <h4 class="font-bold text-royal-950 text-sm">Antoine Moreau</h4>
+              <p class="text-xs text-slate-500">Lyon, France &bull; Solo Backpacker</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3: USA / California -->
+        <div class="bg-white rounded-2xl p-6 sm:p-8 border border-amber-900/10 shadow-md flex flex-col justify-between">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <div class="flex text-amber-400">
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              </div>
+              <span class="text-xs text-slate-400">Lonely Planet Forum</span>
+            </div>
+            <p class="text-slate-700 text-sm leading-relaxed italic">
+              "We visited both outlets &ndash; first the one near the Sardar Clock Tower after exploring Toorji Stepwell, then had lunch at the Paota branch before our train to Jaipur. Clean restrooms, cold AC, cards accepted smoothly. Order the Makhaniya Lassi and Malai Roti together!"
+            </p>
+          </div>
+          <div class="pt-6 mt-4 border-t border-slate-100 flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-900 font-bold flex items-center justify-center text-sm">
+              SK
+            </div>
+            <div>
+              <h4 class="font-bold text-royal-950 text-sm">Sarah &amp; Kevin Miller</h4>
+              <p class="text-xs text-slate-500">San Francisco, USA &bull; Family Vacation</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAQS FOR TRAVELERS -->
+  <section class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center mb-14">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-gold-100 text-gold-900 text-xs font-bold uppercase tracking-wider">
+          Traveler Handbook
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-extrabold text-royal-950 mt-3">
+          Frequently Asked Questions by Foreign Guests
+        </h2>
+      </div>
+
+      <div class="space-y-4" id="faqAccordion">
+        
+        <!-- FAQ 1 -->
+        <div class="border border-slate-200 rounded-2xl overflow-hidden">
+          <button class="w-full text-left p-5 font-bold text-royal-950 flex justify-between items-center bg-slate-50 hover:bg-slate-100 transition faq-toggle">
+            <span>What exactly is Malai Roti and how is it eaten?</span>
+            <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300"></i>
+          </button>
+          <div class="p-5 text-sm text-slate-600 bg-white hidden border-t border-slate-100 leading-relaxed">
+            Malai Roti is not a bread made with flour! It is made 100% from the delicate clotted cream skin that forms on the surface of simmering whole milk. It is layered with cardamom, saffron, and pistachios, then lightly chilled. You eat it gently with a small spoon or fork like a delicate dessert souffl&eacute; or crepe. It is soft, luscious, and mildly sweet.
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="border border-slate-200 rounded-2xl overflow-hidden">
+          <button class="w-full text-left p-5 font-bold text-royal-950 flex justify-between items-center bg-slate-50 hover:bg-slate-100 transition faq-toggle">
+            <span>Is the food safe for sensitive foreign stomachs?</span>
+            <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300"></i>
+          </button>
+          <div class="p-5 text-sm text-slate-600 bg-white hidden border-t border-slate-100 leading-relaxed">
+            Yes, 100%. We take supreme pride in welcoming global travelers. We use commercial multi-stage Reverse Osmosis (RO) purified water for all cooking, cleaning, and preparation. Our dairy is sourced fresh every morning and boiled under strict hygiene standards. If you are sensitive to spicy food, simply inform our staff and we will customize any cooked item to zero or low heat.
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="border border-slate-200 rounded-2xl overflow-hidden">
+          <button class="w-full text-left p-5 font-bold text-royal-950 flex justify-between items-center bg-slate-50 hover:bg-slate-100 transition faq-toggle">
+            <span>Which of your 2 outlets should I visit?</span>
+            <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300"></i>
+          </button>
+          <div class="p-5 text-sm text-slate-600 bg-white hidden border-t border-slate-100 leading-relaxed">
+            &bull; If you are sightseeing around the <strong>Old Blue City, Mehrangarh Fort, or Toorji Stepwell</strong>, visit our <strong>Sardar Market / Clock Tower Outlet</strong> &ndash; it is an easy 3-minute stroll.<br><br>
+            &bull; If you have a driver, taxi, want easy parking, or are travelling in a larger family group, our <strong>Paota Main High Street Outlet</strong> offers a spacious, fully air-conditioned dining hall and quick cab access.
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="border border-slate-200 rounded-2xl overflow-hidden">
+          <button class="w-full text-left p-5 font-bold text-royal-950 flex justify-between items-center bg-slate-50 hover:bg-slate-100 transition faq-toggle">
+            <span>What payment methods do you accept?</span>
+            <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300"></i>
+          </button>
+          <div class="p-5 text-sm text-slate-600 bg-white hidden border-t border-slate-100 leading-relaxed">
+            We accept all major International Credit/Debit Cards (Visa, Mastercard, Maestro, Amex), Apple Pay, Google Pay, UPI payments, and Indian Rupee cash. No foreign transaction surcharges on our end.
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="border border-slate-200 rounded-2xl overflow-hidden">
+          <button class="w-full text-left p-5 font-bold text-royal-950 flex justify-between items-center bg-slate-50 hover:bg-slate-100 transition faq-toggle">
+            <span>Can I pack Malai Roti &amp; Mewa Cream for my flight?</span>
+            <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300"></i>
+          </button>
+          <div class="p-5 text-sm text-slate-600 bg-white hidden border-t border-slate-100 leading-relaxed">
+            Yes! Just let us know at least 1-2 hours in advance (or send a message on WhatsApp), and we will package your sweets in insulated, leak-proof food containers with chilled ice-gel packs suitable for your domestic flight to Delhi, Mumbai, or international departures.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TABLE RESERVATION & INQUIRY MODAL (POPUP) -->
+  <div id="reservationModal" class="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm hidden items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl relative border border-gold-400/40 transform transition-all">
+      <button onclick="closeReservationModal()" class="absolute top-5 right-5 text-slate-400 hover:text-slate-800 p-1">
+        <i data-lucide="x" class="w-6 h-6"></i>
+      </button>
+
+      <div class="text-center mb-6">
+        <div class="w-12 h-12 rounded-full bg-gold-100 text-gold-700 flex items-center justify-center mx-auto mb-3">
+          <i data-lucide="calendar" class="w-6 h-6"></i>
+        </div>
+        <h3 class="font-serif text-2xl font-bold text-royal-950">Reserve a Table at Vijay Restaurant</h3>
+        <p class="text-xs text-slate-500 mt-1">We will keep fresh Malai Roti &amp; Mewa Cream reserved for your arrival.</p>
+      </div>
+
+      <form id="reservationForm" class="space-y-4" onsubmit="handleReservationSubmit(event)">
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-royal-950 mb-1">Your Full Name</label>
+          <input type="text" id="resName" required placeholder="e.g. Emma Watson" class="w-full px-4 py-2.5 rounded-xl border border-slate-200 text-sm focus:outline-none focus:border-gold-500">
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-royal-950 mb-1">Preferred Outlet</label>
+            <select id="resOutlet" class="w-full px-3 py-2.5 rounded-xl border border-slate-200 text-xs sm:text-sm focus:outline-none focus:border-gold-500 bg-white">
+              <option value="Clock Tower Outlet (Old City)">Outlet 1: Clock Tower (Old City)</option>
+              <option value="Paota Outlet (High Street)">Outlet 2: Paota (High Street)</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-royal-950 mb-1">Party Size</label>
+            <select id="resGuests" class="w-full px-3 py-2.5 rounded-xl border border-slate-200 text-xs sm:text-sm focus:outline-none focus:border-gold-500 bg-white">
+              <option value="1-2 Guests">1-2 Guests</option>
+              <option value="3-4 Guests">3-4 Guests</option>
+              <option value="5+ Group">5+ Group / Tour</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-royal-950 mb-1">Visit Date</label>
+            <input type="date" id="resDate" required class="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs sm:text-sm focus:outline-none focus:border-gold-500">
+          </div>
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-royal-950 mb-1">Approx Time</label>
+            <input type="time" id="resTime" required value="13:00" class="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs sm:text-sm focus:outline-none focus:border-gold-500">
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-royal-950 mb-1">Dietary Notes / Requests</label>
+          <input type="text" id="resNotes" placeholder="e.g. Mild spice please, reserve 2 Malai Rotis, nut allergy" class="w-full px-4 py-2.5 rounded-xl border border-slate-200 text-xs sm:text-sm focus:outline-none focus:border-gold-500">
+        </div>
+
+        <button type="submit" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-gold-600 to-amber-600 hover:from-gold-700 hover:to-amber-700 text-royal-950 font-bold text-xs uppercase tracking-wider shadow-lg transition flex items-center justify-center gap-2">
+          <i data-lucide="message-circle" class="w-4 h-4"></i>
+          <span>Confirm via Instant WhatsApp</span>
+        </button>
+        <p class="text-[10px] text-center text-slate-400">Instantly opens WhatsApp with pre-filled details to chat directly with our team.</p>
+      </form>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="bg-royal-950 text-white pt-16 pb-12 border-t border-gold-500/20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-slate-800">
+        
+        <!-- Brand Info -->
+        <div class="space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-royal-800 border-2 border-gold-400 flex items-center justify-center font-serif font-black text-gold-400">
+              V
+            </div>
+            <span class="font-serif text-xl font-bold tracking-wider text-white uppercase">
+              Vijay <span class="text-gold-400">Restaurant</span>
+            </span>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            The authentic culinary heritage of Jodhpur, Rajasthan. Celebrated for our royal Malai Roti, Mewa Cream, and traveler-safe dining experiences.
+          </p>
+          <div class="flex items-center gap-3 text-slate-400">
+            <span class="text-xs text-gold-300 font-semibold">Padharo Mhare Desh</span>
+            <span>&bull;</span>
+            <span class="text-xs text-slate-400">Pure Vegetarian</span>
+          </div>
+        </div>
+
+        <!-- Outlet 1 Info -->
+        <div class="space-y-3">
+          <h4 class="font-serif font-bold text-sm text-gold-300 uppercase tracking-wider">Outlet 1: Old City</h4>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Near Sardar Market Clock Tower (Ghanta Ghar), 3 min stroll from Stepwell, Jodhpur 342001
+          </p>
+          <p class="text-xs text-slate-400">
+            <strong class="text-white">Hours:</strong> 7:30 AM &ndash; 10:30 PM Daily
+          </p>
+          <a href="https://maps.google.com/?q=Clock+Tower+Jodhpur" target="_blank" class="inline-flex items-center gap-1.5 text-xs text-gold-400 hover:text-white transition">
+            <i data-lucide="navigation-2" class="w-3.5 h-3.5"></i>
+            <span>Google Maps Directions</span>
+          </a>
+        </div>
+
+        <!-- Outlet 2 Info -->
+        <div class="space-y-3">
+          <h4 class="font-serif font-bold text-sm text-gold-300 uppercase tracking-wider">Outlet 2: Paota</h4>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Main Paota High Street, Opp. Polo Ground / Civil Lines Area, Jodhpur 342006
+          </p>
+          <p class="text-xs text-slate-400">
+            <strong class="text-white">Hours:</strong> 7:00 AM &ndash; 11:00 PM Daily
+          </p>
+          <a href="https://maps.google.com/?q=Paota+Jodhpur" target="_blank" class="inline-flex items-center gap-1.5 text-xs text-gold-400 hover:text-white transition">
+            <i data-lucide="navigation-2" class="w-3.5 h-3.5"></i>
+            <span>Google Maps Directions</span>
+          </a>
+        </div>
+
+        <!-- Quick Contacts & Socials -->
+        <div class="space-y-3">
+          <h4 class="font-serif font-bold text-sm text-gold-300 uppercase tracking-wider">Connect With Us</h4>
+          <p class="text-xs text-slate-400">
+            Visiting Jodhpur or have questions before arriving? Reach us directly on WhatsApp or Call:
+          </p>
+          <div class="space-y-2">
+            <a href="tel:+919829000000" class="flex items-center gap-2 text-xs text-slate-300 hover:text-white transition">
+              <i data-lucide="phone" class="w-4 h-4 text-emerald-400"></i>
+              <span>+91 98290 00000 / +91 98290 00001</span>
+            </a>
+            <a href="mailto:info@vijayrestaurantjodhpur.com" class="flex items-center gap-2 text-xs text-slate-300 hover:text-white transition">
+              <i data-lucide="mail" class="w-4 h-4 text-gold-400"></i>
+              <span>contact@vijayrestaurant.com</span>
+            </a>
+          </div>
+          <div class="pt-2 flex items-center gap-3">
+            <span class="inline-flex items-center gap-1 text-[11px] bg-slate-800 text-slate-300 px-2 py-1 rounded">
+              <i data-lucide="wifi" class="w-3 h-3 text-emerald-400"></i> Free Traveler Wi-Fi
+            </span>
+            <span class="inline-flex items-center gap-1 text-[11px] bg-slate-800 text-slate-300 px-2 py-1 rounded">
+              <i data-lucide="snowflake" class="w-3 h-3 text-sky-400"></i> AC Dining
+            </span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Copyright -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+        <div>
+          &copy; 2026 Vijay Restaurant Jodhpur. All Rights Reserved. Pure Vegetarian Heritage Sweets &amp; Dining.
+        </div>
+        <div class="flex items-center space-x-6 text-slate-400">
+          <a href="#about" class="hover:text-gold-400 transition">About</a>
+          <a href="#specialties" class="hover:text-gold-400 transition">Malai Roti</a>
+          <a href="#specialties" class="hover:text-gold-400 transition">Mewa Cream</a>
+          <a href="#safe-dining" class="hover:text-gold-400 transition">Safe Water Guarantee</a>
+          <a href="#outlets" class="hover:text-gold-400 transition">Locations</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- FLOATING QUICK CONTACT BAR ON MOBILE -->
+  <div class="fixed bottom-0 inset-x-0 z-40 bg-royal-950/95 backdrop-blur-md border-t border-gold-500/30 p-2.5 sm:hidden flex items-center justify-around gap-2 text-white">
+    <a href="#outlets" class="flex-1 py-2 px-3 rounded-lg bg-royal-800 text-center text-xs font-bold text-gold-300 flex items-center justify-center gap-1.5 border border-gold-400/20">
+      <i data-lucide="map-pin" class="w-4 h-4 text-gold-400"></i>
+      <span>2 Outlets</span>
+    </a>
+    <a href="https://wa.me/919829000000?text=Hello%20Vijay%20Restaurant!%20I%20am%20visiting%20Jodhpur%20and%20would%20like%20directions%20or%20menu." target="_blank" class="flex-1 py-2 px-3 rounded-lg bg-emerald-600 text-center text-xs font-bold text-white flex items-center justify-center gap-1.5 shadow">
+      <i data-lucide="message-circle" class="w-4 h-4"></i>
+      <span>WhatsApp</span>
+    </a>
+    <button onclick="openReservationModal()" class="flex-1 py-2 px-3 rounded-lg bg-gold-500 text-center text-xs font-bold text-royal-950 flex items-center justify-center gap-1.5 shadow">
+      <i data-lucide="calendar" class="w-4 h-4"></i>
+      <span>Reserve</span>
+    </button>
+  </div>
+
+  <!-- JavaScript File -->
+  <script src="app.js"></script>
+</body>
+</html>
