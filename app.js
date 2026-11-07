@@ -158,8 +158,8 @@ function handleReservationSubmit(event) {
     `📝 *Notes / Dietary / Special Sweets (Malai Roti / Mewa Cream):* ${encodeURIComponent(notes)}%0A%0A` +
     `_Hello Vijay Restaurant team, please confirm availability. Thank you!_`;
 
-  // Vijay Restaurant WhatsApp number
-  const phoneNumber = '919829000000';
+  // Vijay Restaurant WhatsApp number (Sardarpura / Jodhpur)
+  const phoneNumber = '919828660899';
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
 
   // Open WhatsApp in new tab
