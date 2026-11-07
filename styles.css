@@ -105,6 +105,20 @@ html {
   animation: fadeIn 0.2s ease-out forwards;
 }
 
+/* Brand Logo Styling */
+.brand-logo-ring {
+  background: conic-gradient(from 180deg at 50% 50%, #d4a017 0deg, #1a5b8c 120deg, #e8be51 240deg, #d4a017 360deg);
+  padding: 2.5px;
+  border-radius: 9999px;
+  box-shadow: 0 4px 14px rgba(12, 35, 60, 0.18);
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+}
+
+.brand-logo-ring:hover {
+  transform: scale(1.05) rotate(1deg);
+  box-shadow: 0 8px 22px rgba(212, 160, 23, 0.35);
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
